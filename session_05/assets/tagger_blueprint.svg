@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="950" height="235" viewBox="0 0 950 235" role="img" aria-label="LSTM tagger blueprint">
+<rect x="1" y="1" width="948" height="233" rx="18" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="475" y="34" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#0f172a">LSTM tagger blueprint</text>
+<rect x="156" y="66" width="190" height="82" rx="14" fill="#ffffff" stroke="#d1d5db"/>
+<circle cx="178" cy="90" r="11" fill="#2563eb" opacity="0.9"/>
+<text x="178" y="94" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#ffffff">1</text>
+<text x="251.0" y="95" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#111827">Embedding table</text>
+<text x="251.0" y="122" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#475569">(B, T) -&gt; (B, T, E)</text>
+<path d="M 353 107 H 373" stroke="#2563eb" stroke-width="3" stroke-linecap="round"/>
+<path d="M 373 101 L 382 107 L 373 113" fill="none" stroke="#2563eb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="380" y="66" width="190" height="82" rx="14" fill="#ffffff" stroke="#d1d5db"/>
+<circle cx="402" cy="90" r="11" fill="#2563eb" opacity="0.9"/>
+<text x="402" y="94" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#ffffff">2</text>
+<text x="475.0" y="95" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#111827">BiLSTM encoder</text>
+<text x="475.0" y="122" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#475569">(B, T, E) -&gt; (B, T, 2H)</text>
+<path d="M 577 107 H 597" stroke="#2563eb" stroke-width="3" stroke-linecap="round"/>
+<path d="M 597 101 L 606 107 L 597 113" fill="none" stroke="#2563eb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="604" y="66" width="190" height="82" rx="14" fill="#ffffff" stroke="#d1d5db"/>
+<circle cx="626" cy="90" r="11" fill="#2563eb" opacity="0.9"/>
+<text x="626" y="94" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#ffffff">3</text>
+<text x="699.0" y="95" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#111827">Token head</text>
+<text x="699.0" y="122" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#475569">(B, T, 2H) -&gt; (B, T, K)</text>
+<line x1="48" y1="172" x2="902" y2="172" stroke="#e5e7eb"/>
+<text x="475.0" y="198" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#475569">The classifier head is applied at each token position.</text>
+</svg>

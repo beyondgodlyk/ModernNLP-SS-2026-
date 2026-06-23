@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="350" viewBox="0 0 1100 350" role="img" aria-label="Full fine-tuning vs LoRA">
+<rect x="1" y="1" width="1098" height="348" rx="18" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="550" y="36" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#0f172a">Full fine-tuning vs LoRA</text>
+<rect x="55" y="68" width="470" height="190" rx="16" fill="#ffffff" stroke="#d1d5db"/>
+<text x="290.0" y="100" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#2563eb">Full fine-tuning</text>
+<circle cx="89" cy="128" r="6" fill="#2563eb"/>
+<text x="300.0" y="132" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#334155">Original weight W is trainable</text>
+<circle cx="89" cy="162" r="6" fill="#2563eb"/>
+<text x="300.0" y="166" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#334155">Strong adaptation</text>
+<circle cx="89" cy="196" r="6" fill="#2563eb"/>
+<text x="300.0" y="200" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#334155">Large task checkpoint</text>
+<rect x="575" y="68" width="470" height="190" rx="16" fill="#ffffff" stroke="#d1d5db"/>
+<text x="810.0" y="100" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" fill="#7c3aed">LoRA / PEFT</text>
+<circle cx="609" cy="128" r="6" fill="#7c3aed"/>
+<text x="820.0" y="132" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#334155">Original weight W is frozen</text>
+<circle cx="609" cy="162" r="6" fill="#7c3aed"/>
+<text x="820.0" y="166" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#334155">Small matrices A and B train</text>
+<circle cx="609" cy="196" r="6" fill="#7c3aed"/>
+<text x="820.0" y="200" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#334155">Adapter checkpoints are small</text>
+<line x1="48" y1="282" x2="1052" y2="282" stroke="#e5e7eb"/>
+<text x="550.0" y="309" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#475569">LoRA update intuition: output = W x + B A x.</text>
+</svg>

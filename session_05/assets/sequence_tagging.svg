@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="235" viewBox="0 0 1200 235" role="img" aria-label="Sequence tagging pipeline">
+<rect x="1" y="1" width="1198" height="233" rx="18" fill="#f8fafc" stroke="#cbd5e1"/>
+<text x="600" y="34" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#0f172a">Sequence tagging pipeline</text>
+<rect x="169" y="66" width="190" height="82" rx="14" fill="#ffffff" stroke="#d1d5db"/>
+<circle cx="191" cy="90" r="11" fill="#2563eb" opacity="0.9"/>
+<text x="191" y="94" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#ffffff">1</text>
+<text x="264.0" y="95" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#111827">Token vectors</text>
+<text x="264.0" y="122" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#475569">one vector per token</text>
+<path d="M 366 107 H 386" stroke="#2563eb" stroke-width="3" stroke-linecap="round"/>
+<path d="M 386 101 L 395 107 L 386 113" fill="none" stroke="#2563eb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="393" y="66" width="190" height="82" rx="14" fill="#ffffff" stroke="#d1d5db"/>
+<circle cx="415" cy="90" r="11" fill="#2563eb" opacity="0.9"/>
+<text x="415" y="94" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#ffffff">2</text>
+<text x="488.0" y="95" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#111827">BiLSTM states</text>
+<text x="488.0" y="122" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#475569">h1, h2, h3, h4</text>
+<path d="M 590 107 H 610" stroke="#2563eb" stroke-width="3" stroke-linecap="round"/>
+<path d="M 610 101 L 619 107 L 610 113" fill="none" stroke="#2563eb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="617" y="66" width="190" height="82" rx="14" fill="#ffffff" stroke="#d1d5db"/>
+<circle cx="639" cy="90" r="11" fill="#2563eb" opacity="0.9"/>
+<text x="639" y="94" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#ffffff">3</text>
+<text x="712.0" y="95" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#111827">Shared tag head</text>
+<text x="712.0" y="122" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#475569">same classifier at each</text>
+<text x="712.0" y="138" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#475569">position</text>
+<path d="M 814 107 H 834" stroke="#2563eb" stroke-width="3" stroke-linecap="round"/>
+<path d="M 834 101 L 843 107 L 834 113" fill="none" stroke="#2563eb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="841" y="66" width="190" height="82" rx="14" fill="#ffffff" stroke="#d1d5db"/>
+<circle cx="863" cy="90" r="11" fill="#2563eb" opacity="0.9"/>
+<text x="863" y="94" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="700" fill="#ffffff">4</text>
+<text x="936.0" y="95" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" fill="#111827">Tags</text>
+<text x="936.0" y="122" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="12" font-weight="400" fill="#475569">B-PER, I-PER, O, B-LOC</text>
+<line x1="48" y1="172" x2="1152" y2="172" stroke="#e5e7eb"/>
+<text x="600.0" y="198" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="400" fill="#475569">The time dimension is preserved because every token needs a prediction.</text>
+</svg>
